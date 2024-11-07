@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    Background-image: linear-gradient(to right , #2f48c3 , #5db7ab )
+}
+.container div > h1{
+    margin: 20px;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#task-input{
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 1em;
+    background-color: #f1f1f1;
+}
+#btn{
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5db7ab;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.todo-section {
+    width:60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todo-section .todo-elem{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 1em;
+    background-color: #fff;
+    display: flex ;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+    color: #333;
+}
+.todo-section .todo-elem li{
+    color: black;
+    font-size: 1.2em;
+    margin-right: 10px;  
+    list-style-type: circle;
+}
+.todo-section .todo-elem .remBtn{
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
